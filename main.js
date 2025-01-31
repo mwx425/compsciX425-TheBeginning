@@ -30,6 +30,7 @@ function correct() {
     console.log(correctCount);
     document.querySelector('#correct_count').innerHTML= correctCount;
     document.querySelector('#message').innerHTML= 'Correct, good job!';
+    
     if(correctCount === 5) {
         console.log('Yes!');
         document.querySelector('#all_questions').innerHTML= '<h1 class="gameover">YOU WIN!</h1>';
